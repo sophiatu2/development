@@ -20,13 +20,13 @@ On the main screen, all operators are presented as a grid of `ListItem`s. Each `
 
 ### How Data is Passed Down Through Components
 
-Each item is passed down to `ListItem` along with `deselect` and `setDeselect` and an `addToCart` and `removeFromCart` function. `deselect` and `setDeselect` are tied to the `clearCart` function, which resets all the "Add to Team" buttons when the cart is cleared. The adding and removing functions are required to add the item to the cart. The full item is passed down so that all the attributes of the item can be used within `ListItem`. On the other hand, only the name and price of the item is passed down to CartItem since those are the only necesssary attributes.
+Each item is passed down to `ListItem` along with `deselect` and `setDeselect` and an `addToCart` and `removeFromCart` function. `deselect` and `setDeselect` are tied to the `clearCart` function, which resets all the "Add to Team" buttons when the cart is cleared. The adding and removing functions are required to add the item to the cart. The full item is passed down so that all the attributes of the item can be used within `ListItem`. On the other hand, only the name and price of the item is passed down to `CartItem` since those are the only necesssary attributes.
 
 `Filters` takes in `operatorData` and `setFilteredItems`. `operatorData` is required since it has to be mapped over to apply the filters. `setFilteredItems` is used to modify the items that are displayed on the main page.
 
 ### How the User Triggers State Changes
 
-`cart` and `total` are states that keep track of the items and total price of the selected operators. They are triggered by checking or unchecking the "Add to Team" checkbox under each operator.
+`cart` and `total` are states that keep track of the items and total price of the selected operators. They are triggered by clicking the "Add to Team" or "Remove from Team" button under each operator.
 
 `isChecked` is an array of the ids of all the filters that are selected. If a filter is unselected, its id will be removed from the `isChecked` array and it will not be displayed. If a filter is selected, it will be added and thus displayed. The "Select All" button adds the ids of all filters to `isChecked`, thus making every item display. The "Deselect All" sets `isChecked` to an empty array, thus displaying no items.
 
