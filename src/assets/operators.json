@@ -1,0 +1,3831 @@
+[
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "414c44413535363030303030",
+        "name": "ALDA 5.56",
+        "image": "files/weapons/ALDA556.jpg",
+        "assignment": "primary",
+        "type": "Light Machine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "414353313230303030303030",
+        "name": "ACS12",
+        "image": "files/weapons/ACS12.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["Double-action"],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4241494c4946463431303030",
+        "name": "\"Bailiff 410\"",
+        "image": "files/weapons/Bailiff.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Double-action"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4b455241544f533335373030",
+        "name": "\"Keratos .357\"",
+        "image": "files/weapons/Keratos.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "6465706c6f79736869656c64",
+        "name": "Deployable Shield",
+        "description": "The Deployable Shield is a crouch sized cover that can be placed in strategic locations to protect defenders from incomming damage. It is often used to create choke points and hiding locations. This shield can be destroyed by explosives.",
+        "assignment": "Defense",
+        "image": "files/gadgets/deployableshield.png",
+        "uses": 1,
+        "__v": 0
+      },
+      {
+        "_id": "626172626564776972653030",
+        "name": "Barbed Wire",
+        "description": "Barbed Wire is a simple tool designed to slow down attacking operators. The noise it makes when traversed is also a tell of where attackers may be coming from. It is commonly used in important choke points to give defenders a tactical advantage. Due to its large coverage area it is often times hiding a trap or two underneath as well.",
+        "assignment": "Defense",
+        "image": "files/gadgets/barbedwire.png",
+        "uses": 2,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de1e",
+    "name": "Maestro",
+    "badge": "files/operators/def/badges/maestrobadge.png",
+    "image": "files/operators/def/profile/maestro.png",
+    "bio": "Maestro is oldest in a family of eight children. He grew up in Rome, but attended the Military Academy of Modena at 18. He then joined the Carabinieri and earned a spot as an Explorer Paratrooper in the 1st Paratrooper Regiment known as Tuscania.",
+    "ability": "6576696c6579653030303030",
+    "armor_rating": 3,
+    "speed_rating": 1,
+    "type": "defense",
+    "organization": "G.I.S",
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic"],
+        "sights": ["Red Dot Sight", "Reflex Sight", "Holographic Sight"],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Muzzle Brake",
+          "Extended Barrel",
+          "Compensator"
+        ],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4d583453544f524d30303030",
+        "name": "Mx4 Storm",
+        "image": "files/weapons/Mx4Storm.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "414353313230303030303030",
+        "name": "ACS12",
+        "image": "files/weapons/ACS12.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["Double-action"],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4241494c4946463431303030",
+        "name": "\"Bailiff 410\"",
+        "image": "files/weapons/Bailiff.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Double-action"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4b455241544f533335373030",
+        "name": "\"Keratos .357\"",
+        "image": "files/weapons/Keratos.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "696d7061636772656e616465",
+        "name": "Impact Grenade",
+        "description": "Impact Grenades are used by defending operators. These small explosive devices although do less damage then their counterparts they are effective devices for creating rotation holes and surprising attacking operators.",
+        "assignment": "Defense",
+        "image": "files/gadgets/impactgren.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6465706c6f79736869656c64",
+        "name": "Deployable Shield",
+        "description": "The Deployable Shield is a crouch sized cover that can be placed in strategic locations to protect defenders from incomming damage. It is often used to create choke points and hiding locations. This shield can be destroyed by explosives.",
+        "assignment": "Defense",
+        "image": "files/gadgets/deployableshield.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de1f",
+    "name": "Alibi",
+    "badge": "files/operators/def/badges/alibibadge.png",
+    "image": "files/operators/def/profile/alibi.png",
+    "bio": "Alibi was born in Tripoli, Libya and immigrated with her family when she was three years old. Her father managed a small ordnance manufacturer, using his contacts to open up exports.",
+    "ability": "707269736d61303030303030",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "defense",
+    "organization": "G.I.S",
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["double-action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "534958313253443030303030",
+        "name": "SIX12 SD",
+        "image": "files/weapons/SIX12SD.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": ["Red Dot Sight", "Reflex Sight", "Holographic Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake", "Compensator"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "5435534d4730303030303030",
+        "name": "T-5 SMG",
+        "image": "files/weapons/T5SMG.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "513932393030303030303030",
+        "name": "\"Q-929\"",
+        "image": "files/weapons/Q-929.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "696d7061636772656e616465",
+        "name": "Impact Grenade",
+        "description": "Impact Grenades are used by defending operators. These small explosive devices although do less damage then their counterparts they are effective devices for creating rotation holes and surprising attacking operators.",
+        "assignment": "Defense",
+        "image": "files/gadgets/impactgren.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6465706c6f79736869656c64",
+        "name": "Deployable Shield",
+        "description": "The Deployable Shield is a crouch sized cover that can be placed in strategic locations to protect defenders from incomming damage. It is often used to create choke points and hiding locations. This shield can be destroyed by explosives.",
+        "assignment": "Defense",
+        "image": "files/gadgets/deployableshield.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de22",
+    "name": "Lesion",
+    "badge": "files/operators/def/badges/lesionbadge.png",
+    "image": "files/operators/def/profile/lesion.png",
+    "bio": "Born in Junk Bay, Liu Tze Long, codenamed Lesion, was raised by his father, who worked for a ship breaking company. During these years, Lesion would stay at the shipyard, and help him dismantle obsolete ships for scrapping. Crumbling with debts after his father was injured, Lesion took on various hazardous jobs in demolition until he found an opportunity for mine clearance duty. Demonstrating a natural calm while handling highly corrosive substances, he joined the Explosive Ordnance Disposal Bureau. He is a known expert in chemical, biological, radiological and nuclear (CBRN) terrorist threats.",
+    "ability": "677530303030303030303030",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "defense",
+    "organization": "SDU",
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round burst"],
+        "sights": ["Red Dot Sight", "Reflex Sight", "Holographic Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake", "Compensator"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4b3141303030303030303030",
+        "name": "K1A",
+        "image": "files/weapons/K1A.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["break-action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "424f53473132323030303030",
+        "name": "BOSG.12.2",
+        "image": "files/weapons/BOSG-12-2.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4337354155544f3030303030",
+        "name": "C75 Auto",
+        "image": "files/weapons/C75Auto.jpg",
+        "assignment": "secondary",
+        "type": "Machine Pistol",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "534d47313230303030303030",
+        "name": "SMG-12",
+        "image": "files/weapons/SMG-12.jpg",
+        "assignment": "secondary",
+        "type": "Machine Pistol",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "696d7061636772656e616465",
+        "name": "Impact Grenade",
+        "description": "Impact Grenades are used by defending operators. These small explosive devices although do less damage then their counterparts they are effective devices for creating rotation holes and surprising attacking operators.",
+        "assignment": "Defense",
+        "image": "files/gadgets/impactgren.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "62756c6c706663616d657261",
+        "name": "Bulletproof Camera",
+        "description": "The Bulletproof Camera is a wall mounted camera that can not be destroyed by shooting it. An attacking operator can however destroy it by either hitting it with an explosive or melee.",
+        "assignment": "Defense",
+        "image": "files/gadgets/bulletproofcam.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de20",
+    "name": "Vigil",
+    "badge": "files/operators/def/badges/vigilbadge.png",
+    "image": "files/operators/def/profile/vigil.png",
+    "bio": "Chul Kyung Hwa spent months on the run in Asia as a child. He lost his family during the flight before finding asylum in South Korea. As an adult, he enlisted in the ROK Navy and later earned a berth in the ROKN UDT/SEALs, becoming so highly skilled that the 707th Special Mission Battalion handpicked him as an operator. His ERC-7 backpack enables him to vanish from live feeds.",
+    "ability": "657263373030303030303030",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "defense",
+    "organization": "707th SMB",
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": ["Red Dot Sight", "Reflex Sight", "Holographic Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake", "Compensator"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "53434f5250494f4e45564f33",
+        "name": "Scorpion EVO 3 A1",
+        "image": "files/weapons/ScorpionEVO3A1.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["break-action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": ["Suppressor", "Extended Barrel"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "464f31323030303030303030",
+        "name": "FO-12",
+        "image": "files/weapons/FO-12.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "524731353030303030303030",
+        "name": "\"RG15\"",
+        "image": "files/weapons/RG15.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "626172626564776972653030",
+        "name": "Barbed Wire",
+        "description": "Barbed Wire is a simple tool designed to slow down attacking operators. The noise it makes when traversed is also a tell of where attackers may be coming from. It is commonly used in important choke points to give defenders a tactical advantage. Due to its large coverage area it is often times hiding a trap or two underneath as well.",
+        "assignment": "Defense",
+        "image": "files/gadgets/barbedwire.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6465706c6f79736869656c64",
+        "name": "Deployable Shield",
+        "description": "The Deployable Shield is a crouch sized cover that can be placed in strategic locations to protect defenders from incomming damage. It is often used to create choke points and hiding locations. This shield can be destroyed by explosives.",
+        "assignment": "Defense",
+        "image": "files/gadgets/deployableshield.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de21",
+    "name": "Ela",
+    "badge": "files/operators/def/badges/elabadge.png",
+    "image": "files/operators/def/profile/ela.png",
+    "bio": "Elzbieta Bosak is the newest addition to Team Rainbow. Nicknamed Ela, this driven 30-year-old has had an unconventional progression. Having quickly risen among Poland’s Special Forces, she was deployed in six countries and active in Iraq for seven years.Her exploits should come as no surprise, considering that she is the youngest daughter of Jan Bosak, a former commander of Poland’s counter-terrorism unit GROM. Despite this legacy, Ela is not the stiff soldier one would expect. Ela experienced some difficulties while attending a military high school. She was bullied constantly due to the special attention she received as the GROM Commander’s daughter.",
+    "ability": "67727a6d6f746d696e653030",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "defense",
+    "organization": "GROM",
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic", "2-round burst"],
+        "sights": ["Red Dot Sight", "Reflex Sight", "Holographic Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake", "Compensator"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "564543544f52343541435030",
+        "name": "Vector .45 ACP",
+        "image": "files/weapons/Vector45ACP.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Pump-Action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "49544131324c303030303030",
+        "name": "ITA12L",
+        "image": "files/weapons/ITA12L.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["Pump-Action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "495441313253303030303030",
+        "name": "ITA12S",
+        "image": "files/weapons/ITA12S.jpg",
+        "assignment": "secondary",
+        "type": "Shotgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "555350343030303030303030",
+        "name": "USP40",
+        "image": "files/weapons/USP40.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "6e6974726f63656c6c303030",
+        "name": "Nitro Cell",
+        "description": "The Nitro Cell is a thowable explosive that can be detonated at will of the owning defense operator. It is a deadly device that will kill enemies within range. It can also be thrown onto surfaces to create traps. Attacking opperators will be able to hear it due to a beeping sound it makes.",
+        "assignment": "Defense",
+        "image": "files/gadgets/nitrocell.png",
+        "uses": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6465706c6f79736869656c64",
+        "name": "Deployable Shield",
+        "description": "The Deployable Shield is a crouch sized cover that can be placed in strategic locations to protect defenders from incomming damage. It is often used to create choke points and hiding locations. This shield can be destroyed by explosives.",
+        "assignment": "Defense",
+        "image": "files/gadgets/deployableshield.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de23",
+    "name": "Mira",
+    "badge": "files/operators/def/badges/mirabadge.png",
+    "image": "files/operators/def/profile/mira.png",
+    "bio": "Elena María Álvarez was born in Retiro, Madrid, where she learned to spot and fix mechanical defects on automobile engines. Demonstrating solid physical endurance and a stubborn need to prove her worth, Álvarez later joined the Grupo Especial de Operaciones (G.E.O.). Her wide-ranging knowledge of vehicles made her an expert in the ballistic field, which she uses to develop and test bulletproof materials.",
+    "ability": "626c61636b6d6972726f7230",
+    "armor_rating": 3,
+    "speed_rating": 1,
+    "type": "defense",
+    "organization": "GEO",
+    "price": 15000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["Pump-Action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "53555045524e4f5641303030",
+        "name": "SuperNova",
+        "image": "files/weapons/SuperNova.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Reflex Sight",
+          "Holographic Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4d5035534430303030303030",
+        "name": "MP5SD",
+        "image": "files/weapons/MP5SD.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "503232393030303030303030",
+        "name": "P229",
+        "image": "files/weapons/P229.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "42454152494e473930303030",
+        "name": "Bearing 9",
+        "image": "files/weapons/Bearing9.jpg",
+        "assignment": "secondary",
+        "type": "Machine Pistol",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "626172626564776972653030",
+        "name": "Barbed Wire",
+        "description": "Barbed Wire is a simple tool designed to slow down attacking operators. The noise it makes when traversed is also a tell of where attackers may be coming from. It is commonly used in important choke points to give defenders a tactical advantage. Due to its large coverage area it is often times hiding a trap or two underneath as well.",
+        "assignment": "Defense",
+        "image": "files/gadgets/barbedwire.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6465706c6f79736869656c64",
+        "name": "Deployable Shield",
+        "description": "The Deployable Shield is a crouch sized cover that can be placed in strategic locations to protect defenders from incomming damage. It is often used to create choke points and hiding locations. This shield can be destroyed by explosives.",
+        "assignment": "Defense",
+        "image": "files/gadgets/deployableshield.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de24",
+    "name": "Echo",
+    "badge": "files/operators/def/badges/echobadge.png",
+    "image": "files/operators/def/profile/echo.png",
+    "bio": "Known as a natural prodigy in robotics, Masaru Enatsu grew up in Suginami City, Tokyo, the birthplace of several animation studios and technology companies. Enticed to test his devices on the field, he joined the National Police Academy. Specialised in Recon operations, he was recruited by the Tokyo Metropolitan Police Department Special Unit before transferring to the Aichi Unit.",
+    "ability": "796f6b616930303030303030",
+    "armor_rating": 3,
+    "speed_rating": 1,
+    "type": "defense",
+    "organization": "SAT",
+    "price": 15000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake", "Compensator"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4d5058303030303030303030",
+        "name": "MPX",
+        "image": "files/weapons/MPX.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Semi-Automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "535041533132303030303030",
+        "name": "SPAS-12",
+        "image": "files/weapons/SPAS-12.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "443530303030303030303030",
+        "name": "D-50",
+        "image": "files/weapons/D-50.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "6e6974726f63656c6c303030",
+        "name": "Nitro Cell",
+        "description": "The Nitro Cell is a thowable explosive that can be detonated at will of the owning defense operator. It is a deadly device that will kill enemies within range. It can also be thrown onto surfaces to create traps. Attacking opperators will be able to hear it due to a beeping sound it makes.",
+        "assignment": "Defense",
+        "image": "files/gadgets/nitrocell.png",
+        "uses": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6465706c6f79736869656c64",
+        "name": "Deployable Shield",
+        "description": "The Deployable Shield is a crouch sized cover that can be placed in strategic locations to protect defenders from incomming damage. It is often used to create choke points and hiding locations. This shield can be destroyed by explosives.",
+        "assignment": "Defense",
+        "image": "files/gadgets/deployableshield.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de26",
+    "name": "Valkyrie",
+    "badge": "files/operators/def/badges/valkyriebadge.png",
+    "image": "files/operators/def/profile/valkyrie.png",
+    "bio": "While serving as a Naval Intelligence Officer, Castellano was chosen to be one of the first women admitted to SEALs training. Singularly focused and driven, she will do whatever it takes to accomplish the mission in the most seamless and effective way possible. She uses the “Black Eye”, a camera able to adhere to nearly any surface, while maintaining a clear view and providing her whole team with a live video feed. The quick deploy camera has proved incredibly useful for operations in situations with limited intel, gaining a much needed tactical advantage in close quarters or around blind spots.",
+    "ability": "626c61636b65796530303030",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "defense",
+    "organization": "SEALs",
+    "price": 10000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["Semi-Automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "535550455239303030303030",
+        "name": "Super 90",
+        "image": "files/weapons/Super90.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic"],
+        "sights": ["Red Dot Sight", "Reflex Sight"],
+        "barrels": ["Suppressor", "Extended Barrel"],
+        "grips": ["Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "394d4d433130303030303030",
+        "name": "9mm C1",
+        "image": "files/weapons/9mmC1.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d4b31394d4d303030303030",
+        "name": "Mk1 9mm",
+        "image": "files/weapons/Mk19mm.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "626172626564776972653030",
+        "name": "Barbed Wire",
+        "description": "Barbed Wire is a simple tool designed to slow down attacking operators. The noise it makes when traversed is also a tell of where attackers may be coming from. It is commonly used in important choke points to give defenders a tactical advantage. Due to its large coverage area it is often times hiding a trap or two underneath as well.",
+        "assignment": "Defense",
+        "image": "files/gadgets/barbedwire.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "62756c6c706663616d657261",
+        "name": "Bulletproof Camera",
+        "description": "The Bulletproof Camera is a wall mounted camera that can not be destroyed by shooting it. An attacking operator can however destroy it by either hitting it with an explosive or melee.",
+        "assignment": "Defense",
+        "image": "files/gadgets/bulletproofcam.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de27",
+    "name": "Frost",
+    "badge": "files/operators/def/badges/frostbadge.png",
+    "image": "files/operators/def/profile/frost.png",
+    "bio": "A combat systems officer, Tina Lin Tsang is a focused and meticulous planner. She uses the Sterling Mk2 LHT or “Welcome Mat”, a floor mounted, rubber and metallic spring loaded leg-hold trap that provides her with a non-lethal means of immobilising her prey. The sleek design of the “Welcome Mat” allows for seamless deployment in a variety of areas and environments without the need for extensive camouflage.",
+    "ability": "77656c636f6d656d61743030",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "defense",
+    "organization": "JTF2",
+    "price": 10000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": ["Red Dot Sight", "Reflex Sight"],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Muzzle Brake",
+          "Extended Barrel"
+        ],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3132303030303030303030",
+        "name": "M12",
+        "image": "files/weapons/M12.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Semi-Automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "535041533135303030303030",
+        "name": "SPAS-15",
+        "image": "files/weapons/SPAS-15.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4c5549534f4e303030303030",
+        "name": "\"Luison\"",
+        "image": "files/weapons/luison.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "696d7061636772656e616465",
+        "name": "Impact Grenade",
+        "description": "Impact Grenades are used by defending operators. These small explosive devices although do less damage then their counterparts they are effective devices for creating rotation holes and surprising attacking operators.",
+        "assignment": "Defense",
+        "image": "files/gadgets/impactgren.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "62756c6c706663616d657261",
+        "name": "Bulletproof Camera",
+        "description": "The Bulletproof Camera is a wall mounted camera that can not be destroyed by shooting it. An attacking operator can however destroy it by either hitting it with an explosive or melee.",
+        "assignment": "Defense",
+        "image": "files/gadgets/bulletproofcam.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de25",
+    "name": "Caveira",
+    "badge": "files/operators/def/badges/caveirabadge.png",
+    "image": "files/operators/def/profile/caveira.png",
+    "bio": "Known as a brutal interrogator, Taina “Caveira” Pereira’s makes for a fearless Operator on the field. Originally from a small town on the outskirts of São Paulo, her life could have taken a turn for the worst when she was arrested at 16 on robbery charges. Her promising profile allowed for an exception, giving her the option between entering a juvenile reformatory and working with BOPE.",
+    "ability": "6c7569736f6e303030303030",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "defense",
+    "organization": "BOPE",
+    "price": 15000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round Burst"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Compensator",
+          "Muzzle Brake",
+          "Extended Barrrel"
+        ],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "554d50343530303030303030",
+        "name": "UMP45",
+        "image": "files/weapons/UPM45.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Semi-automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3130313430303030303030",
+        "name": "M1014",
+        "image": "files/weapons/M1014.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "353775736730303030303030",
+        "name": "5.7 USG",
+        "image": "files/weapons/57USG.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d34354d4555534f43303030",
+        "name": "M45 MEUSOC",
+        "image": "files/weapons/M45MEUSOC.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "6e6974726f63656c6c303030",
+        "name": "Nitro Cell",
+        "description": "The Nitro Cell is a thowable explosive that can be detonated at will of the owning defense operator. It is a deadly device that will kill enemies within range. It can also be thrown onto surfaces to create traps. Attacking opperators will be able to hear it due to a beeping sound it makes.",
+        "assignment": "Defense",
+        "image": "files/gadgets/nitrocell.png",
+        "uses": 1,
+        "__v": 0
+      },
+      {
+        "_id": "626172626564776972653030",
+        "name": "Barbed Wire",
+        "description": "Barbed Wire is a simple tool designed to slow down attacking operators. The noise it makes when traversed is also a tell of where attackers may be coming from. It is commonly used in important choke points to give defenders a tactical advantage. Due to its large coverage area it is often times hiding a trap or two underneath as well.",
+        "assignment": "Defense",
+        "image": "files/gadgets/barbedwire.png",
+        "uses": 2,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de2b",
+    "name": "Pulse",
+    "badge": "files/operators/def/badges/pulsebadge.png",
+    "image": "files/operators/def/profile/pulse.png",
+    "bio": "Jack Estrada's work with the FBI biometrics program allowed him to blend his background in communications and biochemistry to a powerful effect.",
+    "ability": "68656172746265617473656e",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "defense",
+    "organization": "FBI SWAT",
+    "price": 10000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["Pump-action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "534743514230303030303030",
+        "name": "SG-CQB",
+        "image": "files/weapons/SGCQB.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round Burst"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4d5035303030303030303030",
+        "name": "MP5",
+        "image": "files/weapons/MP5.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Muzzle Brake",
+          "Extended Barrel"
+        ],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "50394f303030303030303030",
+        "name": "P90",
+        "image": "files/weapons/P90.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "503930303030303030303030",
+        "name": "P9",
+        "image": "files/weapons/P9.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Double-action"],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4c4650353836303030303030",
+        "name": "LFP586",
+        "image": "files/weapons/LFP586.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "626172626564776972653030",
+        "name": "Barbed Wire",
+        "description": "Barbed Wire is a simple tool designed to slow down attacking operators. The noise it makes when traversed is also a tell of where attackers may be coming from. It is commonly used in important choke points to give defenders a tactical advantage. Due to its large coverage area it is often times hiding a trap or two underneath as well.",
+        "assignment": "Defense",
+        "image": "files/gadgets/barbedwire.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "62756c6c706663616d657261",
+        "name": "Bulletproof Camera",
+        "description": "The Bulletproof Camera is a wall mounted camera that can not be destroyed by shooting it. An attacking operator can however destroy it by either hitting it with an explosive or melee.",
+        "assignment": "Defense",
+        "image": "files/gadgets/bulletproofcam.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de2c",
+    "name": "Doc",
+    "badge": "files/operators/def/badges/docbadge.png",
+    "image": "files/operators/def/profile/doc.png",
+    "bio": "Kateb grew up in an affluent family, in Paris’ 16th arrondissement. At twenty, he abandoned a potentially prominent private medical practice in favor of a career with the French defense Health Service. Gustave Kateb is cut from a rare cloth: a genuine altruist, a true believer in making the world a safer place for his fellow man.",
+    "ability": "7374696d706973746f6c3030",
+    "armor_rating": 3,
+    "speed_rating": 1,
+    "type": "defense",
+    "organization": "GIGN",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "3-round burst", "Semi-automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d50354b3030303030303030",
+        "name": "MP5K",
+        "image": "files/weapons/MP5K.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Pump-Action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3539304131303030303030",
+        "name": "M590A1",
+        "image": "files/weapons/M590A1B.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "703232366d6b323530303030",
+        "name": "P226 Mk 25",
+        "image": "files/weapons/P226.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "6e6974726f63656c6c303030",
+        "name": "Nitro Cell",
+        "description": "The Nitro Cell is a thowable explosive that can be detonated at will of the owning defense operator. It is a deadly device that will kill enemies within range. It can also be thrown onto surfaces to create traps. Attacking opperators will be able to hear it due to a beeping sound it makes.",
+        "assignment": "Defense",
+        "image": "files/gadgets/nitrocell.png",
+        "uses": 1,
+        "__v": 0
+      },
+      {
+        "_id": "62756c6c706663616d657261",
+        "name": "Bulletproof Camera",
+        "description": "The Bulletproof Camera is a wall mounted camera that can not be destroyed by shooting it. An attacking operator can however destroy it by either hitting it with an explosive or melee.",
+        "assignment": "Defense",
+        "image": "files/gadgets/bulletproofcam.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de28",
+    "name": "Mute",
+    "badge": "files/operators/def/badges/mutebadge.png",
+    "image": "files/operators/def/profile/mute.png",
+    "bio": "A veteran of Britain's Government Communications Headquarters (GCHQ) unit, Mark Chandar’s exceptional work as a signals intelligence (sigint) specialist has made him a valuable addition to Rainbow.",
+    "ability": "7369676e616c646973727570",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "defense",
+    "organization": "SAS",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round Burst"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Compensator",
+          "Muzzle Brake",
+          "Extended Barrrel"
+        ],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "554d50343530303030303030",
+        "name": "UMP45",
+        "image": "files/weapons/UPM45.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Semi-automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3130313430303030303030",
+        "name": "M1014",
+        "image": "files/weapons/M1014.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "353775736730303030303030",
+        "name": "5.7 USG",
+        "image": "files/weapons/57USG.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d34354d4555534f43303030",
+        "name": "M45 MEUSOC",
+        "image": "files/weapons/M45MEUSOC.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "6e6974726f63656c6c303030",
+        "name": "Nitro Cell",
+        "description": "The Nitro Cell is a thowable explosive that can be detonated at will of the owning defense operator. It is a deadly device that will kill enemies within range. It can also be thrown onto surfaces to create traps. Attacking opperators will be able to hear it due to a beeping sound it makes.",
+        "assignment": "Defense",
+        "image": "files/gadgets/nitrocell.png",
+        "uses": 1,
+        "__v": 0
+      },
+      {
+        "_id": "696d7061636772656e616465",
+        "name": "Impact Grenade",
+        "description": "Impact Grenades are used by defending operators. These small explosive devices although do less damage then their counterparts they are effective devices for creating rotation holes and surprising attacking operators.",
+        "assignment": "Defense",
+        "image": "files/gadgets/impactgren.png",
+        "uses": 2,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de2a",
+    "name": "Castle",
+    "badge": "files/operators/def/badges/castlebadge.png",
+    "image": "files/operators/def/profile/castle.png",
+    "bio": "Miles Campbell holds a BA in Criminal Justice and is a former LAPD SWAT officer who went federal and is now an FBI SWAT veteran.",
+    "ability": "61726d6f7270616e656c3030",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "defense",
+    "organization": "FBI SWAT",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": ["Red Dot Sight", "Reflex Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "666d67393030303030303030",
+        "name": "FMG-9",
+        "image": "files/weapons/FMG9.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Pump-Action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3539304131303030303030",
+        "name": "M590A1",
+        "image": "files/weapons/M590A1B.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "703232366d6b323530303030",
+        "name": "P226 Mk 25",
+        "image": "files/weapons/P226.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Compensator",
+          "Extended Barrel"
+        ],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "534d47313130303030303030",
+        "name": "SMG-11",
+        "image": "files/weapons/SMG11.jpg",
+        "assignment": "secondary",
+        "type": "Machine Pistol",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "696d7061636772656e616465",
+        "name": "Impact Grenade",
+        "description": "Impact Grenades are used by defending operators. These small explosive devices although do less damage then their counterparts they are effective devices for creating rotation holes and surprising attacking operators.",
+        "assignment": "Defense",
+        "image": "files/gadgets/impactgren.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6465706c6f79736869656c64",
+        "name": "Deployable Shield",
+        "description": "The Deployable Shield is a crouch sized cover that can be placed in strategic locations to protect defenders from incomming damage. It is often used to create choke points and hiding locations. This shield can be destroyed by explosives.",
+        "assignment": "Defense",
+        "image": "files/gadgets/deployableshield.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de29",
+    "name": "Smoke",
+    "badge": "files/operators/def/badges/smokebadge.png",
+    "image": "files/operators/def/profile/smoke.png",
+    "bio": "Porter is a thrill seeker with very little regard for his personal safety. He is fearless in battle and can be a great asset for defensive maneuvers, however he seems to enjoy the havoc and chaos of war.",
+    "ability": "72656d6f746567617367726e",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "defense",
+    "organization": "SAS",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["Pump-action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3837303030303030303030",
+        "name": "M870",
+        "image": "files/weapons/M870.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake", "Compensator"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d5037303030303030303030",
+        "name": "MP7",
+        "image": "files/weapons/MP7.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "503132303030303030303030",
+        "name": "P12",
+        "image": "files/weapons/P12.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "6e6974726f63656c6c303030",
+        "name": "Nitro Cell",
+        "description": "The Nitro Cell is a thowable explosive that can be detonated at will of the owning defense operator. It is a deadly device that will kill enemies within range. It can also be thrown onto surfaces to create traps. Attacking opperators will be able to hear it due to a beeping sound it makes.",
+        "assignment": "Defense",
+        "image": "files/gadgets/nitrocell.png",
+        "uses": 1,
+        "__v": 0
+      },
+      {
+        "_id": "626172626564776972653030",
+        "name": "Barbed Wire",
+        "description": "Barbed Wire is a simple tool designed to slow down attacking operators. The noise it makes when traversed is also a tell of where attackers may be coming from. It is commonly used in important choke points to give defenders a tactical advantage. Due to its large coverage area it is often times hiding a trap or two underneath as well.",
+        "assignment": "Defense",
+        "image": "files/gadgets/barbedwire.png",
+        "uses": 2,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de31",
+    "name": "Bandit",
+    "badge": "files/operators/def/badges/banditbadge.png",
+    "image": "files/operators/def/profile/bandit.png",
+    "bio": "A former undercover agent within the Hannover Hells Angels, Brunsmeier is known for taking obsolete items and repurposing them into weapons. He has cobbled together a device that can electrify barbed wires and barricades, and injure or destroy anything that comes into contact with it.",
+    "ability": "73686f636b77697265303030",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "defense",
+    "organization": "GSG 9",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake", "Compensator"],
+        "grips": ["Vertical Grip", "Anled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "3958313956534e3030303030",
+        "name": "9×19VSN",
+        "image": "files/weapons/9×19VSN.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Semi-Automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": ["Suppessor"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "534153473132303030303030",
+        "name": "SASG-12",
+        "image": "files/weapons/SASG-12.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "504d4d303030303030303030",
+        "name": "PMM",
+        "image": "files/weapons/PMM.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "475348313830303030303030",
+        "name": "Gsh-18",
+        "image": "files/weapons/Gsh-18.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "626172626564776972653030",
+        "name": "Barbed Wire",
+        "description": "Barbed Wire is a simple tool designed to slow down attacking operators. The noise it makes when traversed is also a tell of where attackers may be coming from. It is commonly used in important choke points to give defenders a tactical advantage. Due to its large coverage area it is often times hiding a trap or two underneath as well.",
+        "assignment": "Defense",
+        "image": "files/gadgets/barbedwire.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6465706c6f79736869656c64",
+        "name": "Deployable Shield",
+        "description": "The Deployable Shield is a crouch sized cover that can be placed in strategic locations to protect defenders from incomming damage. It is often used to create choke points and hiding locations. This shield can be destroyed by explosives.",
+        "assignment": "Defense",
+        "image": "files/gadgets/deployableshield.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de2f",
+    "name": "Tachanka",
+    "badge": "files/operators/def/badges/tachankabadge.png",
+    "image": "files/operators/def/profile/tachanka.png",
+    "bio": "Alexsandr Senaviev is an iconoclast who came of age in a pre-glasnost red army family and has retained an interest in soviet machinery and weaponry.",
+    "ability": "6d6f756e7465646c6d673030",
+    "armor_rating": 3,
+    "speed_rating": 1,
+    "type": "defense",
+    "organization": "Spetsnaz",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake", "Compensator"],
+        "grips": ["Vertical Grip", "Anled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "3958313956534e3030303030",
+        "name": "9×19VSN",
+        "image": "files/weapons/9×19VSN.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Semi-Automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": ["Suppessor"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "534153473132303030303030",
+        "name": "SASG-12",
+        "image": "files/weapons/SASG-12.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "504d4d303030303030303030",
+        "name": "PMM",
+        "image": "files/weapons/PMM.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "475348313830303030303030",
+        "name": "Gsh-18",
+        "image": "files/weapons/Gsh-18.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "6e6974726f63656c6c303030",
+        "name": "Nitro Cell",
+        "description": "The Nitro Cell is a thowable explosive that can be detonated at will of the owning defense operator. It is a deadly device that will kill enemies within range. It can also be thrown onto surfaces to create traps. Attacking opperators will be able to hear it due to a beeping sound it makes.",
+        "assignment": "Defense",
+        "image": "files/gadgets/nitrocell.png",
+        "uses": 1,
+        "__v": 0
+      },
+      {
+        "_id": "696d7061636772656e616465",
+        "name": "Impact Grenade",
+        "description": "Impact Grenades are used by defending operators. These small explosive devices although do less damage then their counterparts they are effective devices for creating rotation holes and surprising attacking operators.",
+        "assignment": "Defense",
+        "image": "files/gadgets/impactgren.png",
+        "uses": 2,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de2e",
+    "name": "Kapkan",
+    "badge": "files/operators/def/badges/kapkanbadge.png",
+    "image": "files/operators/def/profile/kapkan.png",
+    "bio": "Born and raised in Kovrov, Basuda is the son of factory workers. To escape a life in the factory, he enlisted with the Ministry of Internal Affairs and was sent to a small port town on the Barents Sea. Basuda became an avid hunter and trapper during his time in the Arctic Circle.",
+    "ability": "656e74727964656e69616c64",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "defense",
+    "organization": "Spetsnaz",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["Pump-action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3837303030303030303030",
+        "name": "M870",
+        "image": "files/weapons/M870.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Compensator",
+          "Muzzle Brake",
+          "Extended Barrel"
+        ],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "3431364343415242494e4530",
+        "name": "416-C Carbine",
+        "image": "files/weapons/416-C.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "503132303030303030303030",
+        "name": "P12",
+        "image": "files/weapons/P12.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "626172626564776972653030",
+        "name": "Barbed Wire",
+        "description": "Barbed Wire is a simple tool designed to slow down attacking operators. The noise it makes when traversed is also a tell of where attackers may be coming from. It is commonly used in important choke points to give defenders a tactical advantage. Due to its large coverage area it is often times hiding a trap or two underneath as well.",
+        "assignment": "Defense",
+        "image": "files/gadgets/barbedwire.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6465706c6f79736869656c64",
+        "name": "Deployable Shield",
+        "description": "The Deployable Shield is a crouch sized cover that can be placed in strategic locations to protect defenders from incomming damage. It is often used to create choke points and hiding locations. This shield can be destroyed by explosives.",
+        "assignment": "Defense",
+        "image": "files/gadgets/deployableshield.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de30",
+    "name": "Jager",
+    "badge": "files/operators/def/badges/jagerbadge.png",
+    "image": "files/operators/def/profile/jager.png",
+    "bio": "A veteran of GSG 9 anti-piracy ops in the Indian Ocean, Marius Streicher has seen action as a helicopter operator and technology advisor.",
+    "ability": "616374697665646566656e73",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "defense",
+    "organization": "GSG 9",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["Pump-action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "534743514230303030303030",
+        "name": "SG-CQB",
+        "image": "files/weapons/SGCQB.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round Burst"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4d5035303030303030303030",
+        "name": "MP5",
+        "image": "files/weapons/MP5.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Muzzle Brake",
+          "Extended Barrel"
+        ],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "50394f303030303030303030",
+        "name": "P90",
+        "image": "files/weapons/P90.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "503930303030303030303030",
+        "name": "P9",
+        "image": "files/weapons/P9.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Double-action"],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4c4650353836303030303030",
+        "name": "LFP586",
+        "image": "files/weapons/LFP586.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "696d7061636772656e616465",
+        "name": "Impact Grenade",
+        "description": "Impact Grenades are used by defending operators. These small explosive devices although do less damage then their counterparts they are effective devices for creating rotation holes and surprising attacking operators.",
+        "assignment": "Defense",
+        "image": "files/gadgets/impactgren.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6465706c6f79736869656c64",
+        "name": "Deployable Shield",
+        "description": "The Deployable Shield is a crouch sized cover that can be placed in strategic locations to protect defenders from incomming damage. It is often used to create choke points and hiding locations. This shield can be destroyed by explosives.",
+        "assignment": "Defense",
+        "image": "files/gadgets/deployableshield.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de2d",
+    "name": "Rook",
+    "badge": "files/operators/def/badges/rookbadge.png",
+    "image": "files/operators/def/profile/rook.png",
+    "bio": "Julien Nizan is the deliverer of the GIGN's famous trust exercise for new recruits: taking a bullet fired by one of your colleagues with only a small armor plate to protect you. He carries these same armor plates into combat, dropping them for his allies to reinforce their defenses. ",
+    "ability": "61726d6f727061636b303030",
+    "armor_rating": 3,
+    "speed_rating": 1,
+    "type": "defense",
+    "organization": "GIGN",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": [],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": [],
+        "_id": "434345534849454c44303030",
+        "name": "CCE Shield",
+        "image": "files/weapons/CCEShield.jpg",
+        "assignment": "primary",
+        "type": "Balistic Shield",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "503130433030303030303030",
+        "name": "P-10C",
+        "image": "files/weapons/P-10C.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["2-round Burst"],
+        "sights": [],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "5350534d4739303030303030",
+        "name": "SPSMG9",
+        "image": "files/weapons/SPSMG9.jpg",
+        "assignment": "secondary",
+        "type": "Machine Pistol",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "696d7061636772656e616465",
+        "name": "Impact Grenade",
+        "description": "Impact Grenades are used by defending operators. These small explosive devices although do less damage then their counterparts they are effective devices for creating rotation holes and surprising attacking operators.",
+        "assignment": "Defense",
+        "image": "files/gadgets/impactgren.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "626172626564776972653030",
+        "name": "Barbed Wire",
+        "description": "Barbed Wire is a simple tool designed to slow down attacking operators. The noise it makes when traversed is also a tell of where attackers may be coming from. It is commonly used in important choke points to give defenders a tactical advantage. Due to its large coverage area it is often times hiding a trap or two underneath as well.",
+        "assignment": "Defense",
+        "image": "files/gadgets/barbedwire.png",
+        "uses": 2,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de32",
+    "name": "Clash",
+    "badge": "files/operators/def/badges/clashbadge.png",
+    "image": "files/operators/def/profile/clash.png",
+    "bio": "Born and raised in England, Clash is a tough officer who served with the Territorial Support Group, holding the front line during the 2011 London Riots. She earned her spot with the Specialist Firearms Command (SCO19), making herself known within London’s Metropolitan Police Services (MPS).",
+    "ability": "434345534849454c44303030",
+    "armor_rating": 3,
+    "speed_rating": 1,
+    "type": "defense",
+    "organization": "GSUTR",
+    "price": 25000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["Pump-Action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3539304131303030303030",
+        "name": "M590A1",
+        "image": "files/weapons/M590A1B.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "703232366d6b323530303030",
+        "name": "P226 Mk 25",
+        "image": "files/weapons/P226.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Compensator",
+          "Extended Barrel"
+        ],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "534d47313130303030303030",
+        "name": "SMG-11",
+        "image": "files/weapons/SMG11.jpg",
+        "assignment": "secondary",
+        "type": "Machine Pistol",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "667261676772656e61646573",
+        "name": "Frag Grenade",
+        "description": "The Frag Grenade is a throwable explosive used by select operators. Its high damage allows for easy kills from a distance and can destroy several operator gadgets. This type of grenade can be held for a short time until throw to shorten the detonation.",
+        "assignment": "Attack",
+        "image": "files/gadgets/fraggrenade.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "7374756e6772656e61646573",
+        "name": "Stun Grenade",
+        "description": "The Stun Grenade is used by select attcking operators to blind and disorient defending operators. This tool is used well in an aggressive push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/stungre.png",
+        "uses": 3,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de33",
+    "name": "Sledge",
+    "badge": "files/operators/atk/badges/sledgebadge.png",
+    "image": "files/operators/atk/profile/sledge.png",
+    "bio": "Seamus Cowden hails from the upper tip of the Scottish Highlands. Due to his imposing physical stature and athleticism, he found early success as the Captain of the 1998 Scotland National under-20 Rugby Union Team. A strong desire for public service inspired Cowden to enlist in the army at 18, after five years of active duty, he was recruited by the SAS.",
+    "ability": "544845434142455230303030",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "SAS",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "353536584930303030303030",
+        "name": "556xi",
+        "image": "files/weapons/556xi.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Semi-automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3130313430303030303030",
+        "name": "M1014",
+        "image": "files/weapons/M1014.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "353775736730303030303030",
+        "name": "5.7 USG",
+        "image": "files/weapons/57USG.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d34354d4555534f43303030",
+        "name": "M45 MEUSOC",
+        "image": "files/weapons/M45MEUSOC.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "636c61796d6f726573303030",
+        "name": "Claymore",
+        "description": "The Claymore is a deadly trap that can be set by attacking operators. This device is motion detected and sets off an explosion when triggered. Depending on the health of the defense operator it will either down or straight out kill them upon detonation.",
+        "assignment": "Attack",
+        "image": "files/gadgets/claymore.png",
+        "uses": 1,
+        "__v": 0
+      },
+      {
+        "_id": "7374756e6772656e61646573",
+        "name": "Stun Grenade",
+        "description": "The Stun Grenade is used by select attcking operators to blind and disorient defending operators. This tool is used well in an aggressive push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/stungre.png",
+        "uses": 3,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de34",
+    "name": "Thermite",
+    "badge": "files/operators/atk/badges/thermitebadge.png",
+    "image": "files/operators/atk/profile/thermite.png",
+    "bio": "Trace joined the Marines after high school, serving two tours in Iraq. After his discharge, he used his GI Bill money to put himself through college at Texas A&M and earned a Bachelor Degree of Science in Chemistry. He then joined the FBI. After four years as a field agent, he transferred to FBI SWAT.",
+    "ability": "65786f746865726d69636368",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "FBI SWAT",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4c38354132617373756c7472",
+        "name": "L85A2",
+        "image": "files/weapons/L85A2.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Pump-Action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3539304131303030303030",
+        "name": "M590A1",
+        "image": "files/weapons/M590A1B.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic", "2-round burst"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "415233333030303030303030",
+        "name": "AR33",
+        "image": "files/weapons/AR33.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "703232366d6b323530303030",
+        "name": "P226 Mk 25",
+        "image": "files/weapons/P226.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "627265616368636861726765",
+        "name": "Breach Charge",
+        "description": "The Breach Charge is one of the basic Gadgets in Rainbow Six. Used by attackers the charge allows you to breach walls that would be otherwise impassable except by shooting through them. However it cannot break reinforcements.",
+        "assignment": "Attack",
+        "image": "files/gadgets/breachcharge.png",
+        "uses": 3,
+        "__v": 0
+      },
+      {
+        "_id": "636c61796d6f726573303030",
+        "name": "Claymore",
+        "description": "The Claymore is a deadly trap that can be set by attacking operators. This device is motion detected and sets off an explosion when triggered. Depending on the health of the defense operator it will either down or straight out kill them upon detonation.",
+        "assignment": "Attack",
+        "image": "files/gadgets/claymore.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de35",
+    "name": "Thatcher",
+    "badge": "files/operators/atk/badges/thatcherbadge.png",
+    "image": "files/operators/atk/profile/thatcher.png",
+    "bio": "Born into a family of stevedores, Baker enlisted for active military duty on his eighteenth birthday. A veteran of three wars, Baker was the oldest SAS operative on active duty until he was recruited by Rainbow.",
+    "ability": "454d504752454e4144453030",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "SAS",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "473336433030303030303030",
+        "name": "G36C",
+        "image": "files/weapons/G36C.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Compensator",
+          "Muzzle Brake",
+          "Extended Barrel"
+        ],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "523443303030303030303030",
+        "name": "R4-C",
+        "image": "files/weapons/R4-C.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d34354d4555534f43303030",
+        "name": "M45 MEUSOC",
+        "image": "files/weapons/M45MEUSOC.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "353775736730303030303030",
+        "name": "5.7 USG",
+        "image": "files/weapons/57USG.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "627265616368636861726765",
+        "name": "Breach Charge",
+        "description": "The Breach Charge is one of the basic Gadgets in Rainbow Six. Used by attackers the charge allows you to breach walls that would be otherwise impassable except by shooting through them. However it cannot break reinforcements.",
+        "assignment": "Attack",
+        "image": "files/gadgets/breachcharge.png",
+        "uses": 3,
+        "__v": 0
+      },
+      {
+        "_id": "7374756e6772656e61646573",
+        "name": "Stun Grenade",
+        "description": "The Stun Grenade is used by select attcking operators to blind and disorient defending operators. This tool is used well in an aggressive push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/stungre.png",
+        "uses": 3,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de36",
+    "name": "Ash",
+    "badge": "files/operators/atk/badges/ashbadge.png",
+    "image": "files/operators/atk/profile/ash.png",
+    "bio": "Born and raised in Jerusalem, Israel, Cohen enrolled at Tel Aviv University after secondary school in the Engineering program. It was during this time she did a semester abroad at Boston University. After college, she enlisted in the Israeli Defense Forces. Her engineering background made her a great candidate for mechanical maintenance and demolitions. She was later transferred to FBI SWAT due to an international law enforcement exchange program. Cohen brought her knowledge of demolitions with her in producing a weapon-mounted breach charge capable of blowing open a door or wall from a distance.",
+    "ability": "425245414348494e47524f55",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "attack",
+    "organization": "FBI SWAT",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round burst"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "463230303030303030303030",
+        "name": "F2",
+        "image": "files/weapons/F2.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "ACOG Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "343137303030303030303030",
+        "name": "417",
+        "image": "files/weapons/417.jpg",
+        "assignment": "primary",
+        "type": "Marksmen Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Pump-action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "534743514230303030303030",
+        "name": "SG-CQB",
+        "image": "files/weapons/SGCQB.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "503930303030303030303030",
+        "name": "P9",
+        "image": "files/weapons/P9.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Double-action"],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4c4650353836303030303030",
+        "name": "LFP586",
+        "image": "files/weapons/LFP586.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "627265616368636861726765",
+        "name": "Breach Charge",
+        "description": "The Breach Charge is one of the basic Gadgets in Rainbow Six. Used by attackers the charge allows you to breach walls that would be otherwise impassable except by shooting through them. However it cannot break reinforcements.",
+        "assignment": "Attack",
+        "image": "files/gadgets/breachcharge.png",
+        "uses": 3,
+        "__v": 0
+      },
+      {
+        "_id": "636c61796d6f726573303030",
+        "name": "Claymore",
+        "description": "The Claymore is a deadly trap that can be set by attacking operators. This device is motion detected and sets off an explosion when triggered. Depending on the health of the defense operator it will either down or straight out kill them upon detonation.",
+        "assignment": "Attack",
+        "image": "files/gadgets/claymore.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de37",
+    "name": "Twitch",
+    "badge": "files/operators/atk/badges/twitchbadge.png",
+    "image": "files/operators/atk/profile/twitch.png",
+    "bio": "Born in the historic town of Nancy, Pichon grew up in a family that valued education, particularly math and science. Early participation in sponsored computer programming competitions led to her joining the army cadets at sixteen. Pichon demonstrates an affinity for complex robotic systems and mechanical academia, due to an early exposure to analytical problem-solving. This ability transcends academia. Unlike many engineers who have the propensity to be emotionally disconnected or apathetic, Pichon is strongly intuitive and empathetic. She believes that technology's best use is to improve the quality of life. This principle motivates Pichon in her military service.",
+    "ability": "53484f434b44524f4e453030",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "GIGN",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": [],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": [],
+        "_id": "455854454e4441424c455348",
+        "name": "Extendable Shield",
+        "image": "files/weapons/ExtendableShield.jpg",
+        "assignment": "primary",
+        "type": "Balistic Shield",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "503930303030303030303030",
+        "name": "P9",
+        "image": "files/weapons/P9.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Double-action"],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4c4650353836303030303030",
+        "name": "LFP586",
+        "image": "files/weapons/LFP586.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "736d6f6b656772656e616465",
+        "name": "Smoke Grenade",
+        "description": "The Smoke Grenade is a great tool used by attackers to provide cover as they push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/smokegre.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "7374756e6772656e61646573",
+        "name": "Stun Grenade",
+        "description": "The Stun Grenade is used by select attcking operators to blind and disorient defending operators. This tool is used well in an aggressive push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/stungre.png",
+        "uses": 3,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de38",
+    "name": "Montagne",
+    "badge": "files/operators/atk/badges/montagnebadge.png",
+    "image": "files/operators/atk/profile/montagne.png",
+    "bio": "The son of an army officer and school teacher, the family was stationed near Bordeaux, France. A few years after he graduated from high school, he became a member of the National Gendarmerie. As a police officer, Touré has dedicated his life to the defence work. His devotion and commitment to the ideals of National Gendarmerie allowed him to obtain a position within the GIGN.",
+    "ability": "455854454e4441424c455348",
+    "armor_rating": 3,
+    "speed_rating": 1,
+    "type": "attack",
+    "organization": "GIGN",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": [],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": [],
+        "_id": "42414c495354494353484945",
+        "name": "Balistic Shield",
+        "image": "files/weapons/BalisticShield.jpg",
+        "assignment": "primary",
+        "type": "Balistic Shield",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "365034313030303030303030",
+        "name": "6P41",
+        "image": "files/weapons/6P41.jpg",
+        "assignment": "primary",
+        "type": "Light Machine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round Burst"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "414b31323030303030303030",
+        "name": "AK-12",
+        "image": "files/weapons/AK-12.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "475348313830303030303030",
+        "name": "Gsh-18",
+        "image": "files/weapons/Gsh-18.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "504d4d303030303030303030",
+        "name": "PMM",
+        "image": "files/weapons/PMM.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "627265616368636861726765",
+        "name": "Breach Charge",
+        "description": "The Breach Charge is one of the basic Gadgets in Rainbow Six. Used by attackers the charge allows you to breach walls that would be otherwise impassable except by shooting through them. However it cannot break reinforcements.",
+        "assignment": "Attack",
+        "image": "files/gadgets/breachcharge.png",
+        "uses": 3,
+        "__v": 0
+      },
+      {
+        "_id": "736d6f6b656772656e616465",
+        "name": "Smoke Grenade",
+        "description": "The Smoke Grenade is a great tool used by attackers to provide cover as they push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/smokegre.png",
+        "uses": 2,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de3a",
+    "name": "Fuze",
+    "badge": "files/operators/atk/badges/fuzebadge.png",
+    "image": "files/operators/atk/profile/fuze.png",
+    "bio": "Kessikbayev grew up in a military family in Samarkand, Uzbekistan. After his family emigrated to Russia shortly before the collapse of the Soviet Union, Kessikbayev followed in his father's footsteps and enrolled in the military, where his facility with technology landed him a spot in the coveted weapon testing brigade at Alabino firing range near Moscow.",
+    "ability": "434c55535445524348415247",
+    "armor_rating": 3,
+    "speed_rating": 1,
+    "type": "attack",
+    "organization": "Spetsnaz",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "415547413230303030303030",
+        "name": "AUG A2",
+        "image": "files/weapons/AUGA2.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "503132303030303030303030",
+        "name": "P12",
+        "image": "files/weapons/P12.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "627265616368636861726765",
+        "name": "Breach Charge",
+        "description": "The Breach Charge is one of the basic Gadgets in Rainbow Six. Used by attackers the charge allows you to breach walls that would be otherwise impassable except by shooting through them. However it cannot break reinforcements.",
+        "assignment": "Attack",
+        "image": "files/gadgets/breachcharge.png",
+        "uses": 3,
+        "__v": 0
+      },
+      {
+        "_id": "636c61796d6f726573303030",
+        "name": "Claymore",
+        "description": "The Claymore is a deadly trap that can be set by attacking operators. This device is motion detected and sets off an explosion when triggered. Depending on the health of the defense operator it will either down or straight out kill them upon detonation.",
+        "assignment": "Attack",
+        "image": "files/gadgets/claymore.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de3c",
+    "name": "IQ",
+    "badge": "files/operators/atk/badges/iqbadge.png",
+    "image": "files/operators/atk/profile/iq.png",
+    "bio": "Weiss developed a knack for electrical engineering early in life. At sixteen, she completed her first internship with a local tech company. She would continue her education at MIT and Caltech in the United States. After university, she traveled for a year before dedicating her life to a new challenge, the Bundespolizei (BPOL). Weiss thrived in her new environment and after two years with the BPOL, she was recruited by GSG-9. A brilliant overachiever and a fast learner, Monika Weiss is a natural at almost everything she tries. With an Ivy League education in electrical engineering and service in GSG-9's technical testing and airborne units, she uses a device which detects electronic traps and gadgets at a distance.",
+    "ability": "454c454354524f4e49435344",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "attack",
+    "organization": "GSG 9",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Compensator",
+          "Muzzle Brake",
+          "Extended Barrel"
+        ],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "504152413330383030303030",
+        "name": "PARA-308",
+        "image": "files/weapons/PARA-308.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Flash Hider", "Compensator"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3234393030303030303030",
+        "name": "M249",
+        "image": "files/weapons/M249.jpg",
+        "assignment": "primary",
+        "type": "Light Machine Gun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "505242393230303030303030",
+        "name": "PRB92",
+        "image": "files/weapons/PRB92.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "636c61796d6f726573303030",
+        "name": "Claymore",
+        "description": "The Claymore is a deadly trap that can be set by attacking operators. This device is motion detected and sets off an explosion when triggered. Depending on the health of the defense operator it will either down or straight out kill them upon detonation.",
+        "assignment": "Attack",
+        "image": "files/gadgets/claymore.png",
+        "uses": 1,
+        "__v": 0
+      },
+      {
+        "_id": "7374756e6772656e61646573",
+        "name": "Stun Grenade",
+        "description": "The Stun Grenade is used by select attcking operators to blind and disorient defending operators. This tool is used well in an aggressive push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/stungre.png",
+        "uses": 3,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de3f",
+    "name": "Capitão",
+    "badge": "files/operators/atk/badges/capitaobadge.png",
+    "image": "files/operators/atk/profile/capitao.png",
+    "bio": "Vincente Souza grew up in Nova Iguaçu outside of Rio de Janeiro, the youngest of three children. Tenacious and dedicated, Souza joined the Policia Civil after high school. He was quickly recruited by Cooredenadoria de Recursos Especiais (CORE). Soon after BOPE made him an offer, seeing in him their unit's spirit, 'victory over death'. Souza could not turn them down; it meant working in the favela where his gear would lessen casualties.",
+    "ability": "544143544943414c43524f53",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "attack",
+    "organization": "BOPE",
+    "price": 15000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic", "2-round burst"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Compensator",
+          "Muzzle Brake",
+          "Extended Barrel"
+        ],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "433853465730303030303030",
+        "name": "C8-SFW",
+        "image": "files/weapons/C8-SFW.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "43414d525330303030303030",
+        "name": "CAMRS",
+        "image": "files/weapons/CAMRS.jpg",
+        "assignment": "primary",
+        "type": "Marksmen Rifle",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4d4b31394d4d303030303030",
+        "name": "Mk1 9mm",
+        "image": "files/weapons/Mk19mm.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "667261676772656e61646573",
+        "name": "Frag Grenade",
+        "description": "The Frag Grenade is a throwable explosive used by select operators. Its high damage allows for easy kills from a distance and can destroy several operator gadgets. This type of grenade can be held for a short time until throw to shorten the detonation.",
+        "assignment": "Attack",
+        "image": "files/gadgets/fraggrenade.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "7374756e6772656e61646573",
+        "name": "Stun Grenade",
+        "description": "The Stun Grenade is used by select attcking operators to blind and disorient defending operators. This tool is used well in an aggressive push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/stungre.png",
+        "uses": 3,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de3d",
+    "name": "Buck",
+    "badge": "files/operators/atk/badges/buckbadge.png",
+    "image": "files/operators/atk/profile/buck.png",
+    "bio": "A Montreal native, Côté always wanted to lead an unconventional life. He enrolled in the Canadian Armed Force via the Regular Officer Training Plan, which allowed him to attend University and obtain a degree in criminology. After graduation, he became an MP in the Canadian Army. When his time in the Army was completed he joined the Royal Canadian Mounted Police and eventually became a part of the Emergency Response Team. After excelling in his ERT role he was invited by the Canadian military to re-up and become a member of JTF2.",
+    "ability": "534b454c45544f4e4b455930",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "JTF2",
+    "price": 10000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": [],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": [],
+        "_id": "464c415348534849454c4430",
+        "name": "Flash Shield",
+        "image": "files/weapons/FlashShield.jpg",
+        "assignment": "primary",
+        "type": "Balistic Shield",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "503132303030303030303030",
+        "name": "P12",
+        "image": "files/weapons/P12.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "627265616368636861726765",
+        "name": "Breach Charge",
+        "description": "The Breach Charge is one of the basic Gadgets in Rainbow Six. Used by attackers the charge allows you to breach walls that would be otherwise impassable except by shooting through them. However it cannot break reinforcements.",
+        "assignment": "Attack",
+        "image": "files/gadgets/breachcharge.png",
+        "uses": 3,
+        "__v": 0
+      },
+      {
+        "_id": "736d6f6b656772656e616465",
+        "name": "Smoke Grenade",
+        "description": "The Smoke Grenade is a great tool used by attackers to provide cover as they push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/smokegre.png",
+        "uses": 2,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de3b",
+    "name": "Blitz",
+    "badge": "files/operators/atk/badges/blitzbadge.png",
+    "image": "files/operators/atk/profile/blitz.png",
+    "bio": "A student of Hermann-Böse-Gymnasium, Kötz excelled academically and as a sportsman in the HBG's bilingual program. His imposing physique made him an exceptional athlete, he carried his experience on the field into his military training. His jovial nature and academic background eased the transition from a Schnelle Kräfte soldier in Kosovo to a member of GSG 9. Kötz was integral to establishing an anti-terrorism unit in India following the 2008 attack in Mumbai.",
+    "ability": "464c415348534849454c4430",
+    "armor_rating": 3,
+    "speed_rating": 1,
+    "type": "attack",
+    "organization": "GSG 9",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["Pump-Action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "49544131324c303030303030",
+        "name": "ITA12L",
+        "image": "files/weapons/ITA12L.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round burst"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "433745303030303030303030",
+        "name": "C7E",
+        "image": "files/weapons/C7E.png",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round burst"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "504457393030303030303030",
+        "name": "PDW9",
+        "image": "files/weapons/PDW9.jpg",
+        "assignment": "primary",
+        "type": "Submachine Gun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["Pump-Action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "495441313253303030303030",
+        "name": "ITA12S",
+        "image": "files/weapons/ITA12S.jpg",
+        "assignment": "secondary",
+        "type": "Shotgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "555350343030303030303030",
+        "name": "USP40",
+        "image": "files/weapons/USP40.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "627265616368636861726765",
+        "name": "Breach Charge",
+        "description": "The Breach Charge is one of the basic Gadgets in Rainbow Six. Used by attackers the charge allows you to breach walls that would be otherwise impassable except by shooting through them. However it cannot break reinforcements.",
+        "assignment": "Attack",
+        "image": "files/gadgets/breachcharge.png",
+        "uses": 3,
+        "__v": 0
+      },
+      {
+        "_id": "736d6f6b656772656e616465",
+        "name": "Smoke Grenade",
+        "description": "The Smoke Grenade is a great tool used by attackers to provide cover as they push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/smokegre.png",
+        "uses": 2,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de41",
+    "name": "Jackal",
+    "badge": "files/operators/atk/badges/jackalbadge.png",
+    "image": "files/operators/atk/profile/jackal.png",
+    "bio": "Pushed from one family to the next, Ryad emerged from the foster care system when his older brother, Faisal Ramírez, turned 18 and became his legal guardian. Blaming his shortcomings for the loss of his older brother, Ramírez decided to join the Policía Nacional. He passed the mandatory ESO (Secondary studies) and became a CNP (Cuerpo Nacional de Policía) at 19 years old. He is still investigating his brother's case and to this day, but was unable to find any solid evidence against his brother's murderer. With strong resolve and broad resourcefulness in difficult terrains, Ramírez joined the Grupo Especial de Operaciones (GEO) to track down HVTs and intercept narcotics shipments.",
+    "ability": "4559454e4f584d4f44454c33",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "GEO",
+    "price": 15000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": [],
+        "_id": "4f5453303330303030303030",
+        "name": "OTs-03",
+        "image": "files/weapons/OTs-03.jpg",
+        "assignment": "primary",
+        "type": "Marksmen Rifle",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "475348313830303030303030",
+        "name": "Gsh-18",
+        "image": "files/weapons/Gsh-18.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "504d4d303030303030303030",
+        "name": "PMM",
+        "image": "files/weapons/PMM.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "736d6f6b656772656e616465",
+        "name": "Smoke Grenade",
+        "description": "The Smoke Grenade is a great tool used by attackers to provide cover as they push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/smokegre.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "636c61796d6f726573303030",
+        "name": "Claymore",
+        "description": "The Claymore is a deadly trap that can be set by attacking operators. This device is motion detected and sets off an explosion when triggered. Depending on the health of the defense operator it will either down or straight out kill them upon detonation.",
+        "assignment": "Attack",
+        "image": "files/gadgets/claymore.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de39",
+    "name": "Glaz",
+    "badge": "files/operators/atk/badges/glazbadge.png",
+    "image": "files/operators/atk/profile/glaz.png",
+    "bio": "Glazkov was born and raised in Vladivostok, Russia where his father worked in the shipping industry. Glazkov studied art in secondary school, until the Beslan school hostage crisis inspired him to transfer to the Cadet Corps and pursue a career in the armed forces.",
+    "ability": "464c49505349474854303030",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "Spetsnaz",
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round burst"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "545950453839303030303030",
+        "name": "Type-89",
+        "image": "files/weapons/Type-89.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Pump-Action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "53555045524e4f5641303030",
+        "name": "SuperNova",
+        "image": "files/weapons/SuperNova.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "503232393030303030303030",
+        "name": "P229",
+        "image": "files/weapons/P229.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "42454152494e473930303030",
+        "name": "Bearing 9",
+        "image": "files/weapons/Bearing9.jpg",
+        "assignment": "secondary",
+        "type": "Machine Pistol",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "627265616368636861726765",
+        "name": "Breach Charge",
+        "description": "The Breach Charge is one of the basic Gadgets in Rainbow Six. Used by attackers the charge allows you to breach walls that would be otherwise impassable except by shooting through them. However it cannot break reinforcements.",
+        "assignment": "Attack",
+        "image": "files/gadgets/breachcharge.png",
+        "uses": 3,
+        "__v": 0
+      },
+      {
+        "_id": "7374756e6772656e61646573",
+        "name": "Stun Grenade",
+        "description": "The Stun Grenade is used by select attcking operators to blind and disorient defending operators. This tool is used well in an aggressive push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/stungre.png",
+        "uses": 3,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de40",
+    "name": "Hibana",
+    "badge": "files/operators/atk/badges/hibanabadge.png",
+    "image": "files/operators/atk/profile/hibana.png",
+    "bio": "A Nagoya native, Imagawa traveled the world to perfect her skills and technique. She is specialized in paramilitary techniques gained by training with the SAS, FBI SWAT, and GIGN, to name a few. From her diverse training, she acquired a rare tactical versatility, which includes a proficiency in tubular (bus, train, and airplane) assaults.",
+    "ability": "584b4149524f533030303030",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "attack",
+    "organization": "SAT",
+    "price": 15000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["double-action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "534958313230303030303030",
+        "name": "SIX12",
+        "image": "files/weapons/SIX12.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round burst"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "5439354c5357303030303030",
+        "name": "T-95 LSW",
+        "image": "files/weapons/T-95LSW.jpg",
+        "assignment": "primary",
+        "type": "Light Machine Gun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "513932393030303030303030",
+        "name": "\"Q-929\"",
+        "image": "files/weapons/Q-929.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "627265616368636861726765",
+        "name": "Breach Charge",
+        "description": "The Breach Charge is one of the basic Gadgets in Rainbow Six. Used by attackers the charge allows you to breach walls that would be otherwise impassable except by shooting through them. However it cannot break reinforcements.",
+        "assignment": "Attack",
+        "image": "files/gadgets/breachcharge.png",
+        "uses": 3,
+        "__v": 0
+      },
+      {
+        "_id": "736d6f6b656772656e616465",
+        "name": "Smoke Grenade",
+        "description": "The Smoke Grenade is a great tool used by attackers to provide cover as they push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/smokegre.png",
+        "uses": 2,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de42",
+    "name": "Ying",
+    "badge": "files/operators/atk/badges/yingbadge.png",
+    "image": "files/operators/atk/profile/ying.png",
+    "bio": "Born in the comfortable Central district of Hong Kong, Siu Mei Lin was a close protection operative before joining the Special Duties Unit (SDU). With her acute reflexes and cunning CQB methods, she took the lead on several VIP and witness protection operations. As a Flying Tiger (SDU), she uses her experience in close protection to ensure minimum casualties while leading high-risk operations amidst Hong Kong's dense urban population.",
+    "ability": "43414e44454c413030303030",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "SDU",
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4d4b31344542523030303030",
+        "name": "MK 14 EBR",
+        "image": "files/weapons/MK14EBR.jpg",
+        "assignment": "primary",
+        "type": "Marksmen Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["break-action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "424f53473132323030303030",
+        "name": "BOSG.12.2",
+        "image": "files/weapons/BOSG-12-2.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "534d47313230303030303030",
+        "name": "SMG-12",
+        "image": "files/weapons/SMG-12.jpg",
+        "assignment": "secondary",
+        "type": "Machine Pistol",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4337354155544f3030303030",
+        "name": "C75 Auto",
+        "image": "files/weapons/C75Auto.jpg",
+        "assignment": "secondary",
+        "type": "Machine Pistol",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "736d6f6b656772656e616465",
+        "name": "Smoke Grenade",
+        "description": "The Smoke Grenade is a great tool used by attackers to provide cover as they push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/smokegre.png",
+        "uses": 2,
+        "__v": 0
+      },
+      {
+        "_id": "7374756e6772656e61646573",
+        "name": "Stun Grenade",
+        "description": "The Stun Grenade is used by select attcking operators to blind and disorient defending operators. This tool is used well in an aggressive push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/stungre.png",
+        "uses": 3,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de44",
+    "name": "Dokkaebi",
+    "badge": "files/operators/atk/badges/dokkaebibadge.png",
+    "image": "files/operators/atk/profile/dokkaebi.png",
+    "bio": "Grace, named for the incomparable actress Grace Kelly, always broke expectations, even when it meant she stuck out somehow. She scavenged or bought spare components to build her own computers. She played soccer with the neighborhood boys and got into fights with them, but it was her sharp tongue that landed her in trouble with her teachers. She looked and acted like a troublemaker, so they tried to force her to conform to expectations. To survive, Grace learned to soften her image, to better play with and manipulate preconceptions; she bought fake glasses and adopted the geek girl persona. Grace's skills earned a National Scholarship at KAIST (Korean Advanced Institute of Science and Technology), but after graduating decided to join the Army. Her athleticism and daring paid off, and she was assigned to the ROK Army Special Warfare Command before earning a spot in the 9th Special Forces Brigade known as the Ghosts. Despite her unorthodox behavior within the highly disciplined ROK army, she gained notice for her exemplary tech skills and for being highly adaptable to situations. After Grace participated in joint training with Detachment K Green Berets, the American instructors encouraged her to try out with the 707th Special Mission Battalion: White Tigers.",
+    "ability": "4c4f474943424f4d42303030",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "707th SMB",
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "535045415233303830303030",
+        "name": "Spear .308",
+        "image": "files/weapons/Spear308.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "365034313030303030303030",
+        "name": "6P41",
+        "image": "files/weapons/6P41.jpg",
+        "assignment": "primary",
+        "type": "Light Machine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Semi-Automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": ["Suppessor"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "534153473132303030303030",
+        "name": "SASG-12",
+        "image": "files/weapons/SASG-12.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "504d4d303030303030303030",
+        "name": "PMM",
+        "image": "files/weapons/PMM.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "475348313830303030303030",
+        "name": "Gsh-18",
+        "image": "files/weapons/Gsh-18.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "627265616368636861726765",
+        "name": "Breach Charge",
+        "description": "The Breach Charge is one of the basic Gadgets in Rainbow Six. Used by attackers the charge allows you to breach walls that would be otherwise impassable except by shooting through them. However it cannot break reinforcements.",
+        "assignment": "Attack",
+        "image": "files/gadgets/breachcharge.png",
+        "uses": 3,
+        "__v": 0
+      },
+      {
+        "_id": "667261676772656e61646573",
+        "name": "Frag Grenade",
+        "description": "The Frag Grenade is a throwable explosive used by select operators. Its high damage allows for easy kills from a distance and can destroy several operator gadgets. This type of grenade can be held for a short time until throw to shorten the detonation.",
+        "assignment": "Attack",
+        "image": "files/gadgets/fraggrenade.png",
+        "uses": 2,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de46",
+    "name": "Finka",
+    "badge": "files/operators/atk/badges/finkabadge.png",
+    "image": "files/operators/atk/profile/finka.png",
+    "bio": "",
+    "ability": "414452454e414c5355524745",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "CBRN",
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Compensator",
+          "Muzzle Brake",
+          "Extended Barrel"
+        ],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4d4b31374351423030303030",
+        "name": "MK17 CQB",
+        "image": "files/weapons/MK17CQB.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "535232353030303030303030",
+        "name": "SR-25",
+        "image": "files/weapons/SR-25.jpg",
+        "assignment": "primary",
+        "type": "Marksmen Rifle",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "443530303030303030303030",
+        "name": "D-50",
+        "image": "files/weapons/D-50.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "627265616368636861726765",
+        "name": "Breach Charge",
+        "description": "The Breach Charge is one of the basic Gadgets in Rainbow Six. Used by attackers the charge allows you to breach walls that would be otherwise impassable except by shooting through them. However it cannot break reinforcements.",
+        "assignment": "Attack",
+        "image": "files/gadgets/breachcharge.png",
+        "uses": 3,
+        "__v": 0
+      },
+      {
+        "_id": "7374756e6772656e61646573",
+        "name": "Stun Grenade",
+        "description": "The Stun Grenade is used by select attcking operators to blind and disorient defending operators. This tool is used well in an aggressive push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/stungre.png",
+        "uses": 3,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de3e",
+    "name": "Blackbeard",
+    "badge": "files/operators/atk/badges/blackbeardbadge.png",
+    "image": "files/operators/atk/profile/blackbeard.png",
+    "bio": "Jenson grew up in a comfortable upper middle-class family with no military history. He decided that he wanted to be a Navy SEAL at a young age and devoted his life to achieving this goal. With the help of his father, a kinesiology professor at the University of Washington, he started training at twelve and enlisted at eighteen.",
+    "ability": "5249464c45534849454c4430",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "SEALs",
+    "price": 10000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "563330383030303030303030",
+        "name": "V308",
+        "image": "files/weapons/V308.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "ACOG Sight"],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "343137303030303030303030",
+        "name": "417",
+        "image": "files/weapons/417.jpg",
+        "assignment": "primary",
+        "type": "Marksmen Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["Pump-action"],
+        "sights": ["Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+        "barrels": [],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "534743514230303030303030",
+        "name": "SG-CQB",
+        "image": "files/weapons/SGCQB.jpg",
+        "assignment": "primary",
+        "type": "Shotgun",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["Double-action"],
+        "sights": [],
+        "barrels": [],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "4c4650353836303030303030",
+        "name": "LFP586",
+        "image": "files/weapons/LFP586.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "503930303030303030303030",
+        "name": "P9",
+        "image": "files/weapons/P9.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "636c61796d6f726573303030",
+        "name": "Claymore",
+        "description": "The Claymore is a deadly trap that can be set by attacking operators. This device is motion detected and sets off an explosion when triggered. Depending on the health of the defense operator it will either down or straight out kill them upon detonation.",
+        "assignment": "Attack",
+        "image": "files/gadgets/claymore.png",
+        "uses": 1,
+        "__v": 0
+      },
+      {
+        "_id": "7374756e6772656e61646573",
+        "name": "Stun Grenade",
+        "description": "The Stun Grenade is used by select attcking operators to blind and disorient defending operators. This tool is used well in an aggressive push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/stungre.png",
+        "uses": 3,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de45",
+    "name": "Lion",
+    "badge": "files/operators/atk/badges/lionbadge.png",
+    "image": "files/operators/atk/profile/lion.png",
+    "bio": "In 2015, the army asked Lion to lead the 2nd Dragoons to West Africa to assist medical personnel fighting the Ebola epidemic. Tragedy ensued, and the decisions Olivier made for safety reasons put him at odds with Doc, who blamed him for the death of several medical personnel on-site including Doc's colleague. The tension between the two continues to this day in Team Rainbow. After studying his jacket, Finka recommended Olivier for Rainbow as a CBRN specialist, and Six agreed. Olivier immediately proved his value when Finka and he uncovered the source of the mysterious mist that came ashore in Sussex and poisoned people, though he claims he shares that success with Twitch, who provided him with the new aerial drone to locate the mist plume.",
+    "ability": "45454f4e4544303030303030",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "CBRN",
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round burst"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": [
+          "Suppressor",
+          "Flash Hider",
+          "Compensator",
+          "Muzzle Brake",
+          "Extended Barrel"
+        ],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3430303030303030303030",
+        "name": "M4",
+        "image": "files/weapons/M4.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      },
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "415231353530303030303030",
+        "name": "AR-15.50",
+        "image": "files/weapons/AR-1550.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "313931315441434f50533030",
+        "name": "1911 TACOPS",
+        "image": "files/weapons/1911TACOPS.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "636c61796d6f726573303030",
+        "name": "Claymore",
+        "description": "The Claymore is a deadly trap that can be set by attacking operators. This device is motion detected and sets off an explosion when triggered. Depending on the health of the defense operator it will either down or straight out kill them upon detonation.",
+        "assignment": "Attack",
+        "image": "files/gadgets/claymore.png",
+        "uses": 1,
+        "__v": 0
+      },
+      {
+        "_id": "7374756e6772656e61646573",
+        "name": "Stun Grenade",
+        "description": "The Stun Grenade is used by select attcking operators to blind and disorient defending operators. This tool is used well in an aggressive push towards the objective.",
+        "assignment": "Attack",
+        "image": "files/gadgets/stungre.png",
+        "uses": 3,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de47",
+    "name": "Maverick",
+    "badge": "files/operators/atk/badges/maverickbadge.png",
+    "image": "files/operators/atk/profile/maverick.png",
+    "bio": "",
+    "ability": "425245414348494e47544f52",
+    "armor_rating": 1,
+    "speed_rating": 3,
+    "type": "attack",
+    "organization": "GSUTR",
+    "price": 25000,
+    "__v": 0
+  },
+  {
+    "primaries": [
+      {
+        "firemodes": ["automatic"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4c4d47453030303030303030",
+        "name": "LMG-E",
+        "image": "files/weapons/LMG-E.jpg",
+        "assignment": "primary",
+        "type": "Light Machine Gun",
+        "__v": 0
+      },
+      {
+        "firemodes": ["automatic", "semi-automatic", "3-round burst"],
+        "sights": [
+          "Red Dot Sight",
+          "Holographic Sight",
+          "Reflex Sight",
+          "ACOG Sight"
+        ],
+        "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+        "grips": ["Vertical Grip", "Angled Grip"],
+        "underbarrel": ["Lazer"],
+        "_id": "4d3736323030303030303030",
+        "name": "M762",
+        "image": "files/weapons/M762.jpg",
+        "assignment": "primary",
+        "type": "Assult Rifle",
+        "__v": 0
+      }
+    ],
+    "secondaries": [
+      {
+        "firemodes": ["semi-automatic"],
+        "sights": [],
+        "barrels": ["Suppressor", "Muzzle Brake"],
+        "grips": [],
+        "underbarrel": ["Lazer"],
+        "_id": "524731353030303030303030",
+        "name": "\"RG15\"",
+        "image": "files/weapons/RG15.jpg",
+        "assignment": "secondary",
+        "type": "Handgun",
+        "__v": 0
+      }
+    ],
+    "gadgets": [
+      {
+        "_id": "627265616368636861726765",
+        "name": "Breach Charge",
+        "description": "The Breach Charge is one of the basic Gadgets in Rainbow Six. Used by attackers the charge allows you to breach walls that would be otherwise impassable except by shooting through them. However it cannot break reinforcements.",
+        "assignment": "Attack",
+        "image": "files/gadgets/breachcharge.png",
+        "uses": 3,
+        "__v": 0
+      },
+      {
+        "_id": "636c61796d6f726573303030",
+        "name": "Claymore",
+        "description": "The Claymore is a deadly trap that can be set by attacking operators. This device is motion detected and sets off an explosion when triggered. Depending on the health of the defense operator it will either down or straight out kill them upon detonation.",
+        "assignment": "Attack",
+        "image": "files/gadgets/claymore.png",
+        "uses": 1,
+        "__v": 0
+      }
+    ],
+    "_id": "6009ff18696c80000d97de43",
+    "name": "Zofia",
+    "badge": "files/operators/atk/badges/zofiabadge.png",
+    "image": "files/operators/atk/profile/zofia.png",
+    "bio": "Born in Wroclaw, Zofia Bosak is the oldest daughter of Jan Bosak, former commander of the Polish Special Forces Unit GROM. While attending her father's military high school, she was pressured to perform on every level – a burden her younger sister (Ela) was not able to cope with. After many years of training and succesful missions Zofia was offered a seat among the Rainbow Six team.",
+    "ability": "4b5337394c4946454c494e45",
+    "armor_rating": 2,
+    "speed_rating": 2,
+    "type": "attack",
+    "organization": "GROM",
+    "price": 20000,
+    "__v": 0
+  }
+]
