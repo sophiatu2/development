@@ -12,6 +12,7 @@ operatorData.forEach((item) => {
 
 function App() {
   // Adding and removing from cart
+  const [deselect, setDeselect] = useState(false);
   const [cart, setCart] = useState([]);
   const [total, setTotal] = useState(0);
 
@@ -29,6 +30,7 @@ function App() {
   function clearCart() {
     setCart([]);
     setTotal(0);
+    setDeselect(true);
   }
 
   const [filteredItems, setFilteredItems] = useState(operatorData);
@@ -41,7 +43,6 @@ function App() {
           setFilteredItems={setFilteredItems}
         />
         <hr />
-        {/* <h1>Selected Operators</h1> */}
         <h2>
           Total:{"  "}
           <img
@@ -82,6 +83,8 @@ function App() {
               item={item}
               addItem={() => addToCart(item)}
               removeItem={() => removeFromCart(item)}
+              deselect={deselect}
+              setDeselect={setDeselect}
             />
           ))}
         </div>

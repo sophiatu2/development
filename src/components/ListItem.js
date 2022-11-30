@@ -1,19 +1,32 @@
 // TODO: create a component that displays a single bakery item
 import React from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./ListItem.css";
 
-export default function ListItem({ item, addItem, removeItem }) {
-  const [checked, setChecked] = useState(false);
-
-  const toggleCheck = (event) => {
-    setChecked(!checked);
-    if (event.target.checked) {
-      addItem();
-    } else {
+export default function ListItem({
+  item,
+  addItem,
+  removeItem,
+  deselect,
+  setDeselect,
+}) {
+  const [clicked, setClicked] = useState(false);
+  const toggleClick = (event) => {
+    console.log(clicked);
+    if (clicked) {
       removeItem();
+    } else {
+      addItem();
+      setDeselect(false);
     }
+    setClicked(!clicked);
   };
+
+  useEffect(() => {
+    if (deselect) {
+      setClicked(false);
+    }
+  }, [deselect]);
 
   return (
     <div className="item-wrapper">
@@ -39,15 +52,12 @@ export default function ListItem({ item, addItem, removeItem }) {
           src={item.badge}
           alt={item.name + " Badge Image"}
         />
-        <nobr style={{ marginTop: "8px" }}>
-          <input
-            type="checkbox"
-            id="purchase"
-            checked={checked}
-            onChange={toggleCheck}
-          />
-          <p> Add To Team</p>
-        </nobr>
+        <input
+          type="button"
+          id="purchase"
+          onClick={toggleClick}
+          value={clicked ? "Remove from Team" : "Add To Team"}
+        />
       </div>
     </div>
   );

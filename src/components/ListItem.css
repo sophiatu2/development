@@ -4,7 +4,7 @@
   flex-direction: column;
   width: 13rem;
   height: auto;
-  padding: 2rem 0rem 1rem 0rem;
+  padding: 1rem 0rem;
   box-shadow: 0px 8px 8px 1px rgba(0, 0, 0, 0.2);
   background-color: rgba(0, 0, 0, 0.5);
   align-items: center;
@@ -49,4 +49,26 @@
 .item-wrapper {
   position: relative;
   margin: 8px;
+}
+
+input {
+  background-color: var(--grey);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  line-height: 20px;
+  margin: 0.5rem 0;
+  outline: none;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  touch-action: manipulation;
+}
+
+input:hover {
+  background-color: var(--lightgrey);
 }

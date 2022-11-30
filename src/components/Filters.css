@@ -5,13 +5,12 @@
 }
 
 select {
-  margin: 0 auto;
   color: white;
   font-size: 16px;
   width: auto;
   background-color: var(--grey);
   padding: 0.5rem;
-  margin: 1rem 0rem;
+  margin: 1rem 0rem 0.5rem 0rem;
   cursor: pointer;
   border-style: none;
   border-radius: 10px;
