@@ -2,7 +2,7 @@
 
 ### Link to Deployed Website
 
-`https://vibingcat217.github.io/development`
+[https://vibingcat217.github.io/development](https://vibingcat217.github.io/development)
 
 ### Goal and Value of the Application
 
