@@ -16,11 +16,11 @@ I made sure to include alt text for the badge and profile images. I also tried t
 
 The main app is broken into a sidebar and main screen. The sidebar contains the `Filters` component and cart, which is a map of `CartItem`. The `Filters` component contains a dropdown menu that sorts the items and an option to filter by organization. There are also buttons to select or deselect all options.
 
-On the main screen, all operators are presented as a grid of `ListItem`s. Each `ListItem` displays the operator profile, badge, team, organization, and cost in Renown. There is also a checkbox that adds the operator to the "Team" (AKA Cart) when checked.
+On the main screen, all operators are presented as a grid of `ListItem`s. Each `ListItem` displays the operator profile, badge, team, organization, and cost in Renown. There is also a button that reads "Add To Team" before being clicked and "Remove from Team" afterwards. This adds/removes the operator from the cart depending on the state of `clicked`.
 
 ### How Data is Passed Down Through Components
 
-Each item as well as an add/remove from cart function is passed down to `ListItem`. The adding and removing functions are required due to the "Add to Team" checkbox. The full item is passed down so that all the attributes of the item can be used within `ListItem`. This is also the reason the item is passed into `CartItem`.
+Each item is passed down to `ListItem` along with `deselect` and `setDeselect` and an `addToCart` and `removeFromCart` function. `deselect` and `setDeselect` are tied to the `clearCart` function, which resets all the "Add to Team" buttons when the cart is cleared. The adding and removing functions are required to add the item to the cart. The full item is passed down so that all the attributes of the item can be used within `ListItem`. On the other hand, only the name and price of the item is passed down to CartItem since those are the only necesssary attributes.
 
 `Filters` takes in `operatorData` and `setFilteredItems`. `operatorData` is required since it has to be mapped over to apply the filters. `setFilteredItems` is used to modify the items that are displayed on the main page.
 
@@ -36,4 +36,4 @@ Each item as well as an add/remove from cart function is passed down to `ListIte
 
 `filteredItems` is an array of all the items that are displayed. It is filtered using the filters in `currFilters` and sorted by the property specified by `sortBy`.
 
-`checked` within `ListItem` simply keeps track of whether that operator is added to the cart. If it is being selected, it will run `addToCart` and if it is being deselected, it will run `removeFromCart`.
+`clicked` within `ListItem` simply keeps track of whether that operator is added to the cart. If it has been added, it will run `addToCart` and if it is being removed, it will run `removeFromCart`. It also determines whether the button reads "Remove from Team" or "Add to Team"
