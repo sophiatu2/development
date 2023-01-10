@@ -112,32 +112,35 @@ export default function ListItem({ operatorData, setFilteredItems }) {
           className="sortby"
           aria-label="Sort By"
         >
-          <option value="default">SortBy</option>
+          <option value="default">Sort</option>
           <option value="organization">Organization</option>
           <option value="lowestprice">Lowest Price</option>
           <option value="highestprice">Highest Price</option>
         </select>
+        <h4>Organizations</h4>
         <form>
-          <button onClick={(event) => selectAll(event)}>Select All</button>
-          <br />
-          <button onClick={(event) => selectNone(event)}>Deselect All</button>
-          <ul>
+          <div className="buttons-container">
+            <button onClick={(event) => selectAll(event)}>Select All</button>
+            <button onClick={(event) => selectNone(event)}>Deselect All</button>
+          </div>
+          <div className="buttons-container">
             {categoriesArr.map((item) => (
-              <li key={item.id}>
+              <div class="cat-button">
                 <label key={item.id}>
                   <input
                     key={item.id}
                     type="checkbox"
+                    value="1"
                     name={item.name}
                     id={item.id}
                     checked={isChecked.includes(item.id)}
                     onChange={(event) => changeFilters(event, item)}
                   />
-                  {item.name}
+                  <span>{item.name}</span>
                 </label>
-              </li>
+              </div>
             ))}
-          </ul>
+          </div>
         </form>
       </Collapsible>
     </div>

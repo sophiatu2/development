@@ -36,7 +36,7 @@ export default function ListItem({
           alt={item.name + " Profile Image"}
           className="profile"
         />
-        <h2>{item.name}</h2>
+        <h3>{item.name}</h3>
         {/* <p>{item.type.charAt(0).toUpperCase() + item.type.slice(1)}</p> */}
         <p>{item.organization}</p>
         <p className="cost">

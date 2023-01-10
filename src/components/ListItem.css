@@ -14,7 +14,7 @@
   display: block;
   position: absolute;
   align-self: center;
-  top: 35%;
+  top: 34%;
   width: 40%;
 }
 
@@ -29,7 +29,7 @@
   color: white;
   margin: 8px 0 0 0;
   padding: 12px 0px;
-  font-size: 24px;
+  /* font-size: 24px; */
   line-height: 20px;
   position: relative;
   width: 100%;
@@ -39,7 +39,7 @@
   color: white;
   display: inline;
   margin: 10px;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 .cost {
@@ -56,7 +56,7 @@ input {
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
-  font-size: 16px;
+  /* font-size: 16px; */
   color: #ffffff;
   cursor: pointer;
   line-height: 20px;

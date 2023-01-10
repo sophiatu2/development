@@ -43,16 +43,16 @@ function App() {
           setFilteredItems={setFilteredItems}
         />
         <hr />
-        <h2>
+        <h3>
           Total:{"  "}
           <img
             src={require("./assets/R6S-renown-icon.webp")}
-            height="28px"
+            height="20px"
             alt="Renown Icon"
           />
           {"  "}
           {total}
-        </h2>
+        </h3>
         <div className="cart-wrapper">
           {cart.map((tuple, index) => (
             <CartItem key={index} name={tuple[0]} price={tuple[1]} />
@@ -64,7 +64,7 @@ function App() {
         <div className="header">
           <img
             src={require("./assets/r6-logo.png")}
-            width="80%"
+            width="50%"
             objectfit="contain"
             alt="Rainbow Six Siege Logo"
           />

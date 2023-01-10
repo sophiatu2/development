@@ -56,7 +56,7 @@ h1 {
 
 p {
   color: white;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 img {
@@ -67,27 +67,16 @@ label {
   color: white;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul li {
-  color: white;
-  font-size: 18px;
-}
-
 button {
   background-color: var(--grey);
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
-  font-size: 16px;
+  /* font-size: 16px; */
   color: #ffffff;
   cursor: pointer;
   line-height: 20px;
-  margin: 0.5rem 0;
+  margin: 6px 0;
   outline: none;
   padding: 0.5rem 1rem;
   text-align: center;

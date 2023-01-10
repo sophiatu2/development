@@ -1,16 +1,22 @@
 .Collapsible__trigger {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   color: white;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 select {
   color: white;
-  font-size: 16px;
-  width: auto;
+  font-size: 14px;
   background-color: var(--grey);
   padding: 0.5rem;
-  margin: 1rem 0rem 0.5rem 0rem;
+  margin-top: 1.5rem;
   cursor: pointer;
   border-style: none;
   border-radius: 10px;
@@ -24,5 +30,35 @@ select:hover {
 }
 
 select option {
-  font-size: 16px;
+  font-size: 14px;
+}
+
+h4 {
+  margin: 1.5rem 0 1rem 0;
+}
+
+.cat-button {
+  margin: 4px;
+  background-color: var(--grey);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.cat-button label span {
+  text-align: center;
+  padding: 4px;
+  display: block;
+}
+
+.cat-button label input {
+  position: absolute;
+  display: none;
+  color: #fff !important;
+}
+
+.cat-button input:checked + span {
+  background-color: var(--lightgrey);
+  border-radius: 0.5rem;
+  border: 1px solid #fff;
 }
