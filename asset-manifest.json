@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/development/static/css/main.8f683626.css",
-    "main.js": "/development/static/js/main.bc141860.js",
+    "main.css": "/development/static/css/main.8bbd12ec.css",
+    "main.js": "/development/static/js/main.506d5aa6.js",
     "static/media/r6-generic-bg.jpg": "/development/static/media/r6-generic-bg.8e6088f222ae85b8c5cf.jpg",
     "static/media/r6-logo.png": "/development/static/media/r6-logo.20c39120a58dd6de5eb0.png",
     "static/media/R6S-renown-icon.webp": "/development/static/media/R6S-renown-icon.c757651dc349fe6574b1.webp",
     "index.html": "/development/index.html",
-    "main.8f683626.css.map": "/development/static/css/main.8f683626.css.map",
-    "main.bc141860.js.map": "/development/static/js/main.bc141860.js.map"
+    "main.8bbd12ec.css.map": "/development/static/css/main.8bbd12ec.css.map",
+    "main.506d5aa6.js.map": "/development/static/js/main.506d5aa6.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f683626.css",
-    "static/js/main.bc141860.js"
+    "static/css/main.8bbd12ec.css",
+    "static/js/main.506d5aa6.js"
   ]
 }
